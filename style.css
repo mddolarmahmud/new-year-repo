@@ -25,8 +25,15 @@ p {
 .primary-color {
 	color: #f00;
 }
-
+.btn-primary {
+	padding: 12px 35px;
+	border-style: none;
+	background-color: #f00;
+	border-radius: 5px;
+	cursor: pointer;
+}
 /* off section styles  */
+
 .off {
 	width: 850px;
 	margin: 120px auto;
@@ -40,4 +47,21 @@ p {
 }
 .off h2 {
 	font-size: 32px;
+}
+.welcome {
+	font-family: 'Merriweather', serif;
+	width: 1420px;
+	height: 650px;
+	margin: 0 auto;
+	background-image: url('image/Vectorrr.png');
+	background-size: cover;
+	border-radius: 16px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	color: #fff;
+}
+.welcome h1 {
+	font-size: 64px;
+	font-weight: 900;
 }
