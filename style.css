@@ -20,3 +20,24 @@
 p {
 	padding-top: 72px;
 }
+
+/* multipule uses  */
+.primary-color {
+	color: #f00;
+}
+
+/* off section styles  */
+.off {
+	width: 850px;
+	margin: 120px auto;
+	text-align: center;
+	line-height: 5px;
+	font-family: 'Inter', sans-serif;
+}
+.off h1 {
+	font-size: 88px;
+	font-weight: 700;
+}
+.off h2 {
+	font-size: 32px;
+}
