@@ -1,0 +1,22 @@
+.banner {
+	font-family: 'Merriweather', serif;
+	width: 1420px;
+	height: 650px;
+	margin: 0 auto;
+	text-align: center;
+	background-image: url('image/Banner\ Image.png');
+	background-size: cover;
+	border-radius: 16px;
+	color: #fff;
+	padding-top: 50px;
+	line-height: 5px;
+}
+.banner h1 {
+	font-size: 72px;
+	font-weight: 900;
+	margin-top: 10px;
+}
+.banner > h1,
+p {
+	padding-top: 72px;
+}
