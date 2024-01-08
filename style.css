@@ -32,6 +32,7 @@ p {
 	border-radius: 5px;
 	cursor: pointer;
 }
+
 /* off section styles  */
 
 .off {
@@ -65,6 +66,12 @@ p {
 	font-size: 64px;
 	font-weight: 900;
 }
+.welcome p {
+	font-size: 12px;
+	color: rgba(217, 214, 223, 0.6);
+	font-weight: 400;
+}
+/* party infomation section  */
 
 .party-info {
 	font-family: 'Merriweather', serif;
@@ -76,4 +83,42 @@ p {
 	font-weight: 700px;
 	background-color: rgba(255, 0, 0, 0.1);
 	padding-top: 60px;
+}
+
+/* coming soon section  */
+
+.coming-soon {
+	font-family: 'Inter', sans-serif;
+	width: 1420px;
+	height: 650px;
+	margin: 0 auto;
+	background-color: rgba(192, 159, 159, 0.1);
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	align-items: center;
+	line-height: 15px;
+	gap: 30px;
+}
+.image-round img {
+	width: 380px;
+	height: 380px;
+	border-radius: 50%;
+	border: 15px solid #f00;
+	text-align: center;
+	padding: 12px;
+}
+.small {
+	font-size: 15px;
+	color: rgba(66, 65, 66, 0.6);
+	font-weight: 400;
+}
+
+/* holiday section  */
+.holiday {
+	font-family: 'Inter', sans-serif;
+	width: 1420px;
+	height: 350px;
+	margin: 100px auto;
+	text-align: center;
 }
