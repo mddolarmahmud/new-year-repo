@@ -110,7 +110,7 @@ p {
 }
 .small {
 	font-size: 15px;
-	color: rgba(66, 65, 66, 0.6);
+	color: rgba(43, 42, 43, 0.6);
 	font-weight: 400;
 }
 
@@ -118,7 +118,48 @@ p {
 .holiday {
 	font-family: 'Inter', sans-serif;
 	width: 1420px;
-	height: 350px;
+	height: 300px;
 	margin: 100px auto;
 	text-align: center;
+	background-color: rgba(192, 159, 159, 0.1);
+	padding-top: 50px;
+}
+
+/* discount section  */
+.discount {
+	width: 1420px;
+	height: 650px;
+	margin: 0 auto;
+	background-image: url('image/Rectangle\ 2.png');
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.discount img {
+	box-shadow: #f00;
+}
+
+/* gifts section style  */
+
+.gifts {
+	font-family: 'Merriweather', serif;
+	width: 1420px;
+	height: auto;
+	margin: 100px auto;
+	background-color: rgba(192, 159, 159, 0.1);
+	padding: 40px;
+}
+.description {
+	margin-left: 22px;
+	line-height: 15px;
+}
+.card-up {
+	display: flex;
+	justify-content: space-around;
+	gap: 10px;
+	padding-bottom: 20px;
+}
+.card-bottom {
+	display: flex;
+	justify-content: space-around;
+	gap: 10px;
 }
