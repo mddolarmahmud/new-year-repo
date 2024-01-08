@@ -32,6 +32,10 @@ p {
 	border-radius: 5px;
 	cursor: pointer;
 }
+.bold {
+	font-size: 56px;
+	font-weight: 600;
+}
 
 /* off section styles  */
 
@@ -115,6 +119,7 @@ p {
 }
 
 /* holiday section  */
+
 .holiday {
 	font-family: 'Inter', sans-serif;
 	width: 1420px;
@@ -125,18 +130,30 @@ p {
 	padding-top: 50px;
 }
 
-/* discount section  */
-/* .discount {
+/* optional bonus section  */
+.bonus {
 	width: 1420px;
 	height: 650px;
-	margin: 0 auto;
-	background-image: url('image/Rectangle\ 2.png');
-	background-position: bottom;
-	background-repeat: no-repeat;
+	margin: 100px auto;
+	position: relative;
 }
-.discount img {
-	box-shadow: #f00;
-} */
+.discount {
+	position: absolute;
+	bottom: 280px;
+	left: 865px;
+}
+.rect1 {
+	position: absolute;
+	bottom: 245px;
+	left: 990px;
+}
+
+.rect2 {
+	position: absolute;
+	top: 405px;
+	width: 1420px;
+	z-index: -1;
+}
 
 /* gifts section style  */
 
@@ -189,6 +206,8 @@ input {
 	padding: 10px 32px;
 	border-style: none;
 }
+
+/* footer section style  */
 
 footer {
 	background-color: black;
