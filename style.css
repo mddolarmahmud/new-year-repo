@@ -123,11 +123,11 @@ p {
 .holiday {
 	font-family: 'Inter', sans-serif;
 	width: 1420px;
-	height: 300px;
+	height: 400px;
 	margin: 100px auto;
 	text-align: center;
 	background-color: rgba(192, 159, 159, 0.1);
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 /* optional bonus section  */
@@ -186,11 +186,11 @@ p {
 .subscribe {
 	font-family: 'Merriweather', serif;
 	width: 1420px;
-	height: 350px;
+	height: 450px;
 	margin: 100px auto;
 	text-align: center;
 	background-color: rgba(192, 159, 159, 0.1);
-	padding: 50px 0;
+	padding: 30px 0;
 }
 
 input {
