@@ -126,7 +126,7 @@ p {
 }
 
 /* discount section  */
-.discount {
+/* .discount {
 	width: 1420px;
 	height: 650px;
 	margin: 0 auto;
@@ -136,7 +136,7 @@ p {
 }
 .discount img {
 	box-shadow: #f00;
-}
+} */
 
 /* gifts section style  */
 
@@ -146,20 +146,53 @@ p {
 	height: auto;
 	margin: 100px auto;
 	background-color: rgba(192, 159, 159, 0.1);
-	padding: 40px;
 }
 .description {
 	margin-left: 22px;
 	line-height: 15px;
+	padding-top: 12px;
 }
 .card-up {
 	display: flex;
 	justify-content: space-around;
-	gap: 10px;
+	gap: 5px;
 	padding-bottom: 20px;
 }
 .card-bottom {
 	display: flex;
 	justify-content: space-around;
-	gap: 10px;
+	gap: 5px;
+}
+
+/* subscribe section style  */
+
+.subscribe {
+	font-family: 'Merriweather', serif;
+	width: 1420px;
+	height: 350px;
+	margin: 100px auto;
+	text-align: center;
+	background-color: rgba(192, 159, 159, 0.1);
+	padding: 50px 0;
+}
+
+input {
+	padding: 10px 80px;
+	border-radius: 20px;
+	border-style: none;
+}
+.input button {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-left: -30px;
+	background-color: #f00;
+	padding: 11px 32px;
+	border-style: none;
+}
+
+footer {
+	background-color: black;
+	font-family: 'Inter', sans-serif;
+	height: 350px;
+	margin: 0;
 }
