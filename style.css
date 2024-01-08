@@ -186,13 +186,32 @@ input {
 	border-bottom-right-radius: 20px;
 	margin-left: -30px;
 	background-color: #f00;
-	padding: 11px 32px;
+	padding: 10px 32px;
 	border-style: none;
 }
 
 footer {
 	background-color: black;
 	font-family: 'Inter', sans-serif;
-	height: 350px;
+	height: 550px;
 	margin: 0;
+	color: #fff;
+}
+.footer-data {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+
+hr {
+	width: 1420px;
+}
+.icon {
+	text-align: center;
+	padding: 20px;
+}
+.resevered {
+	display: flex;
+	justify-content: space-around;
 }
